@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+    transition: all 0.3s ease-out 0s;
+    padding: 10px 0;
+    position: relative;
+    position: relative;
+overflow-x: hidden;
+}
+.container{
+height: 500vh;
+border:2px solid #222222;
+}
+.container .header{
+    border: 2px solid #000;
+    height: 70px;
+    background-color: #222222;
+    border-left: none;
+    border-right: none;
+    border-top: 2px;
+    border-color: #000;
+    
+
+}
+.container .header h2{
+    color: #fff;
+    margin: 0px;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    font-size: 15px;
+    left: 50px;
+        
+}
+.linkforsocialmedia{
+    position: relative;
+    bottom:40%;
+
+}
+.high{
+    position: relative;
+    top: 15%;
+}
+
+.high .email {
+    position: relative;
+    top: 10px;
+    left: 60px;
+}
+.high .email img{
+    width: 35px;
+    height: 30px;
+    color: #22223A;
+}
+
+.link{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+    padding: 20px;
+    color:#fff; 
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+}
+.link li{
+float: left;
+margin-left: 10px;
+}
+.nav{
+    position:relative;
+    border: 10px solid #222222;
+    height: 450px;
+}
+.head-view{
+    position: relative;
+    left: 30%;
+    border:2px solid #222222;
+    height:400px;
+    width: 500px;
+}
+.nav .logo{
+    height: 43%;
+    
+}
+.nav .logo .image{
+    border-radius: 46%;
+    position: relative;
+    left: 41%;
+    padding: 15px;
+    border: 1px solid #fff;
+    margin: 10px;
+    height: 65px;
+    width: 60px;
+    border:1px solid #100;
+    background-image: url(../photo/adil.jpg);
+    background-size: cover;
+    top: 5%;
+}
+.logo h4{
+    text-align: center;
+    margin-top: 35px;
+    color:#fff;
+    margin-left: 10px;
+}
+.heading{
+position: relative;
+}
+.heading  h2{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    color: #fff;
+}
+.heading .check{
+    margin-top: 6%;
+    text-align: center;
+}
+.heading .check button{
+    padding: 15px;
+    background-color: #222228;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.heading .check button:hover{
+    background-color: #222228;
+}
+
+.brand{
+    height: 480px;
+}
+.brand h2{
+    color: #fff;
+    margin: 5%;
+    margin-top: 105px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+.brand .service{
+    display: inline-block;
+    border: 1px solid #111;
+    background-color: #22222A;
+    width: 240px;
+    height: 305px;
+    border-radius: 10px;
+    margin: 5px;
+    position:relative;
+    left: 13%;
+    top :20px;
+}
+
+.brand .service h2 {
+    color: #fff;
+    margin: 10%;
+    margin-left: -40px;
+    text-align: center;
+    font-size: 20px;
+}
+.brand .service p{
+    font-size: 16px;
+    color: #fff;
+}
+.service_icon{
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+.service_icon i{
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        text-align: center;
+        font-size: 46px;
+        
+        background-color: #022287;
+        color: #fff;
+        border-radius: 25px;
+        border-bottom-right-radius: 0;
+
+}
+.lni-layout::before {
+    content: "\eb07";
+}
+
+
+hr {
+    margin: 5%;
+    color:#111;
+}
+.busniess {
+height: 450px;
+border: 2px solid #111;
+
+}
+.text{
+    height:400px ;
+}
+.text > div{
+    box-sizing: content-box;
+    width: 44%;
+    float: right;
+    height: 340px;
+}
+.text .skills{
+text-align: right;
+margin-right: 5%;
+color: #fff;
+display: inline-block;
+}
+.text .character{
+    display: inline-block;
+    background-size: 50%;
+    position: relative;
+    bottom: 15%;
+    background-repeat: no-repeat;
+    background-image: url('../photo/adil.png')
+}
+.skill_item h3{
+    margin-top: 5%;
+}
+.skill_item hr{
+    margin: 2%;
+} 
+.service h3{
+    margin: 5%;
+color: #fff;    
+}
+.busniess h2{
+    text-align: center;
+    margin: 3%;
+    color: #fff;
+}
+
+.inmidlle{
+position: relative;
+left: 12%;
+
+
+}
+.inmidlle button{
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    left: 34%;
+    margin-top:8% ;
+    background-color: #222228;
+    color: #fff;
+    border-radius: 10px;
+}
+.experience{
+    background-color: #22223A; 
+    height: 200px;
+}
+footer {
+    background-color: #22223A;
+    height: 200px;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons li a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons li a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 20px;
+}
